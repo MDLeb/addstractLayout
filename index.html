@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-dark-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>WebApp</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="content">
+                <div class="header__logo"><a href="#"></a></div>
+                <nav class="header__nav">
+                    <div class="header__nav_burger" onclick="toggleMenu()">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Advantages</a></li>
+                        <li><a href="#">Preview</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <span class="change-theme" onclick="changeTheme()"></span>
+                </nav>
+            </div>
+        </header>
+        <section class="section section-promo">
+            <div class="content">
+                <div class="section-promo__title">
+                    <h2>do you want to <br><strong>impress</strong> your clients?</h2>
+                    <button class="btn btn-gradient-border">get early access</button>
+                </div>
+            </div>
+        </section>
+        <section class="section section-partners">
+            <div class="content">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <span class="section-partners__info">Trusted by the world&apos;s best</span>
+            </div>
+        </section>
+        <section class="section-info-right section-1">
+            <div class="content">
+                <div class="section__description">
+                    <h3 class="section__title">The simplest way to have a professional webpage.</h3>
+                    <p class="section-info__text">
+                        Get all the benefits of an in-wall or in-ceiling speaker system without any of the hassle. Just replace a few lights around your house, and start streaming crisp, clear audio, everywhere.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-info-left section-2">
+            <div class="content">
+                <div class="section__description">
+                    <h3 class="section__title">Display your product as never before</h3>
+                    <p class="section-info__text">
+                        Get all the benefits of an in-wall or in-ceiling speaker system without any of the hassle. Just replace a few lights around your house, and start streaming crisp, clear audio, everywhere.
+                    </p>
+                </div>    
+            </div>
+        </section>
+        <section class="section-info-right section-3">
+            <div class="content">
+                <div class="section__description">
+                    <h3 class="section__title">The simplest way to have a professional webpage.</h3>
+                    <p class="section-info__text">
+                        Get all the benefits of an in-wall or in-ceiling speaker system without any of the hassle. Just replace a few lights around your house, and start streaming crisp, clear audio, everywhere.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section section-4">
+            <div class="content">
+                <h3 class="section__title">Layered Video Player</h3>
+                <span class="section__subtitle">Video player like never before</span>
+                <div class="section__components">
+                    <div class="comp-1">
+                       <button class="play-btn" onclick="play(this)">
+                           <img src="images/ico/play-btn.png" alt="#">
+                       </button>
+                    </div>
+                    <div class="comp-2">
+                        <div class="component__settings"></div>
+                        <div class="component__close"></div>
+                        <div class="component__avatar">
+                            <img src="images/img/player-component-avatar.png" alt="">
+                        </div>
+                        <div class="component__contacts">
+                            <h3>Simone Miro</h3>
+                            <span>simonem@gmail.com</span>
+                        </div>
+                        <div class="component__info">
+                            <div class="component__info_last-visit">
+                                <span class="component__info_date">06/07</span>
+                                <span>Last Visit</span>
+                            </div>
+                            <div class="component__info_platform">
+                                <div class="component__platform">
+
+                                </div>
+                                <span>Platform</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="component__text">
+                                Thanks for using my <span> free</span> mockup. Don't forget to <span> appreciate</span> it and to leave a<span> comment</span>. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comp-3">
+                        <img src="images/img/player-component-bg2.jpg" alt="#">
+                        <img src="images/img/player-component-bg2.jpg" alt="#">
+                        <img src="images/img/player-component-bg2.jpg" alt="#">
+                    </div>
+                </div>
+                <button class="btn btn-gradient-bg">get early access</button>
+            </div>
+        </section>
+        <section class="section section-5">
+            <div class="content">
+                <h3 class="section__title">Statistics & Information</h3>
+                <span class="section__subtitle">Numbers speak louder than words</span>
+                <div class="section__components">
+                    <ul>
+                        <li>
+                            <div class="stat-component stat-component-1">
+                                <div class="stat-component__settings"></div>
+                                <div class="info">
+                                    <div class="diagr">
+                                        <span>67<sup>%</sup></span>
+                                    </div>
+                                    <p>More visitors during last ineteract </p>
+                                </div>
+                                <div class="stat-component__btns">
+                                    <button class="btn">Today</button>
+                                    <button class="btn">This week</button>
+                                    <button class="btn">This month</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="stat-component stat-component-2">
+                                <div class="stat-component__settings"></div>
+                                <div class="info">
+                                    <p>43% more users after update</p>
+                                    <span>43<sup>%</sup></span>
+                                </div>
+                                <div class="stat-component-2__bg"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="stat-component stat-component-3">
+                                <div class="stat-component__settings"></div>
+                                <div class="stat-component-3__bg"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-gradient-border">View all data</button>
+            </div>
+        </section>
+        <section class="section section-6">
+            <div class="content">
+                <div class="section-6__text">
+                    <span>Build your own future.</span>
+                    <span>Download now free and get 100% boost!</span>
+                </div>
+                <div class="section-6__btns">
+                    <button class="btn btn-gradient-bg">get early access</button>
+                    <button class="btn btn-gradient-border">Newsletter</button>
+                </div>
+            </div>
+        </section>
+        <section class="section section-bottom" id="section-bottom">
+            <div class="content">
+                <div class="section-bottom_lang">
+                    <span>en</span>
+                    <select>
+                        <option selected value="english">English</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+                <ul class="section-bottom__nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Advantages</a></li>
+                    <li><a href="#">Preview</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+                <ul class="section-bottom__nav-2">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Chrom Extension</a></li>
+                </ul>
+                <div class="section-bottom__contacts">
+                    <address class="address">231 North Star  34th Street, Suite #100</br>Cupertino, 98103</address>
+                    <ul class="section-bottom__socials">
+                        <li><a href="#">
+                            <img src="images/ico/ico_soc_dribbble.png" alt="#">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/ico/ico_soc_behance.png" alt="#">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/ico/ico_soc_facebook.png" alt="#">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/ico/ico_soc_instagram.png" alt="#">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/ico/ico_soc_medium.png" alt="#">
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="content">
+            <div class="footer__logo">
+
+            </div>
+            <span class="footer__copyright">
+                &copy;2017  Copyrigts are Creative Commons
+            </span>
+            <span class="footer__credit">
+                Don&apos;t forget to give credit &#128153;
+            </span>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

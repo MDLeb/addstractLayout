@@ -1,0 +1,116 @@
+.wrapper.dark {
+    background-color: #102131;
+    background-image: url("../images/img/BG-dark.png");
+}
+.dark .change-theme:after {
+    content: "☼";
+    color: white;
+}
+.dark .btn:hover {
+    box-shadow: -3px 4px 8px 1px rgba(152, 28, 177, 0.5);
+}
+.dark .btn {
+    color: white;
+}
+.dark .btn-gradient-bg {
+    background: linear-gradient(36.85deg, #F7618B -6.19%, #2A7AFF 135.42%);
+}
+.dark .btn-gradient-border {
+    background: linear-gradient(36.85deg, #F7618B -6.19%, #2A7AFF 135.42%);
+}
+.dark .btn-gradient-border::before {
+    background-color: #102131;
+}
+.dark .header__logo {
+    background-image: url("../images/ico/ico_logo_header-dark.png");
+}
+.dark .header__nav li a,
+.dark .header__nav li span {
+    color: white;
+}
+.dark .header__nav ul.opened {
+    background-color: #102131;
+}
+.dark .section-promo__title h2 {
+    color: white;
+}
+.dark .section-promo .content {
+    background-image: url("../images/img/Device-dark.png");
+}
+.dark .section-partners ul li:first-child {
+    background-image: url("../images/ico/ico_logo_google-dark.png");
+}
+.dark .section-partners ul li:nth-child(2) {
+    background-image: url("../images/ico/ico_logo_fb-dark.png");
+}
+.dark .section-partners ul li:nth-child(3) {
+    background-image: url("../images/ico/ico_logo_slack-dark.png");
+}
+.dark .section-partners ul li:nth-child(4) {
+    background-image: url("../images/ico/ico_logo_vb-dark.png");
+}
+.dark .section-partners ul li:nth-child(5) {
+    background-image: url("../images/ico/ico_logo_bh-dark.png");
+}
+.dark .section-partners ul li:nth-child(6) {
+    background-image: url("../images/ico/ico_logo_drb-dark.png");
+}
+.dark .section-partners ul::after {
+    background-color: #274058;
+}
+.dark .section-partners ul li:hover {
+    filter: brightness(200%);
+}
+.dark .section-partners__info {
+    color: #31414E;
+}
+.dark .section__title {
+    color: white;
+}
+.dark .section-1 .content {
+    background-image: url("../images/img/bg-img1-dark.png");
+}
+.dark .section-2 .content {
+    background-image: url("../images/img/bg-img2-dark.png");
+}
+.dark .section-3 .content {
+    background-image: url("../images/img/bg-img3-dark.png");
+}
+.dark .section-4 .section__components .comp-1::after {
+    background: linear-gradient(36.85deg, #F7618B -6.19%, #2A7AFF 135.42%);
+    box-shadow: 0 10px 20px 15px rgba(152, 28, 177, 0.5);
+
+}
+.dark .diagr {
+    background-image: url("../images/ico/diagr-dark.png");
+}
+.dark .stat-component-2 .stat-component-2__bg {
+    background-image: url("../images/ico/stat-2-bg-dark.png");
+    opacity: 0.8;
+}
+.dark .stat-component-3 .stat-component-3__bg {
+    background-image: url("../images/ico/stat-3-bg-dark.png");
+}
+
+.dark .section-5 .section__components ul>li:hover {
+    box-shadow: -3px 4px 15px 1px rgba(191, 40, 221, 0.8);
+}
+
+.dark .section-6 .content {
+    border-color: #3B5A78;
+}
+.dark .section-bottom_lang span {
+    background-image: url("../images/ico/ico_lang-dark.png");
+}
+.dark.footer {
+    background-color: #101F2D;
+} 
+.dark.footer .content {
+    color: #B0B9CA;
+}
+.dark.footer__logo {
+    background-image: url("../images/ico/ico_logo_footer-dark.png");
+}
+.dark .section-bottom .address::after {
+    background-image: url("../images/ico/ico_location-dark.png");
+}
